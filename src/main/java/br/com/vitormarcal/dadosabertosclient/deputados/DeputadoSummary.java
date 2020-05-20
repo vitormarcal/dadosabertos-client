@@ -1,8 +1,10 @@
 package br.com.vitormarcal.dadosabertosclient.deputados;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
-@Data
+@Data @AllArgsConstructor @NoArgsConstructor
 public class DeputadoSummary {
     private Integer id;
     private String uri;
