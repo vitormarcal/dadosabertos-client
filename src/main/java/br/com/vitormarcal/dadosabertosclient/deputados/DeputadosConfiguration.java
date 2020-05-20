@@ -20,7 +20,7 @@ public class DeputadosConfiguration {
                 .create();
 
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("https://dadosabertos.camara.leg.br/api/v2/deputados")
+                .baseUrl("https://dadosabertos.camara.leg.br/api/")
                 .addConverterFactory(GsonConverterFactory.create(gson))
                 .client(httpClient.build())
                 .build();
